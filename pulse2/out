@@ -1,0 +1,1000 @@
+ 1067  cd work1/SH_TOMO/Combined_xh/
+ 1068  ls
+ 1069  xh_header all.xh 
+ 1070  cd ../Combined_xh/
+ 1071  ls
+ 1072  xh_rp all.xh all_rp.txt rt.prem_ml.SSv.s -127 -66 25 50
+ 1073  xh_header all.xh 
+ 1074  xh_rp all.xh all_rp.txt rt.prem_ml.SSv.s -127 -66 25 50
+ 1075  cd ../
+ 1076  ls
+ 1077  cd test/
+ 1078  ls
+ 1079  xh_rp all.xh all_rp.txt rt.prem_ml.SSv.s -127 -66 25 50
+ 1080  cd ../../
+ 1081  ls
+ 1082  cd SH_TOMO/
+ 1083  cd Combined_xh/
+ 1084  ls
+ 1085  vi add.sh 
+ 1086  ls
+ 1087  cd ../Combined_xh/
+ 1088  ls
+ 1089  xh_header all.xh 
+ 1090  xh_rp all.xh all_rp.txt rt.prem_ml.SSv.s -127 -66 25 5
+ 1091  ulimit -S -a
+ 1092  ulimit -H -a
+ 1093  ulimit -s ulimited
+ 1094  ulimit -S -s ulimited
+ 1095  ulimit -S -s unlimited
+ 1096  ulimit -S -s
+ 1097  ulimit -S -a
+ 1098  xh_rp all.xh all_rp.txt rt.prem_ml.SSv.s -127 -66 25 5
+ 1099  ls
+ 1100  xh_rp all.xh all_rp.txt rt.prem_ml.SSv.s -127 -66 25 5
+ 1101  ulimit -S -a
+ 1102  ulimit -H -a
+ 1103  ulimit -S -n 1048576
+ 1104  xh_rp all.xh all_rp.txt rt.prem_ml.SSv.s -127 -66 25 5
+ 1105  wozhi
+ 1106  ls
+ 1107  cd Documents/
+ 1108  ls
+ 1109  cd ..
+ 1110  exit
+ 1111  cd src/XH_formatting/
+ 1112  LS
+ 1113  ls
+ 1114  vi xh_rp.c 
+ 1115  make xh_rp 
+ 1116  vi xh_rp.c 
+ 1117  vi xh_deconv.c 
+ 1118  cd ../lib/libXH/
+ 1119  ls
+ 1120  vi xh_deconvolve.c 
+ 1121  cd ../../XH_formatting/
+ 1122  ls
+ 1123  vi xh_add2.c 
+ 1124  vi xh_deconv.c 
+ 1125  cd ../lib/libXH/
+ 1126  ls
+ 1127  vi xh_deconvolve.c 
+ 1128  cd ../../XH_formatting/
+ 1129  ls
+ 1130  vi xh_stack.c 
+ 1131  vi xh_rp.c 
+ 1132  make xh_rp
+ 1133  vi xh_snr.c 
+ 1134  vi xh_flip.c 
+ 1135  vi xh_takeoff_tbp.c 
+ 1136  vi xh_stack.c 
+ 1137  make xh_stack 
+ 1138  vi xh_stack.c 
+ 1139  make xh_stack 
+ 1140  vi xh_stack.c 
+ 1141  vi xh_boxcar.c
+ 1142  make xh_boxcar 
+ 1143  vi xh_boxcar.c
+ 1144  make xh_boxcar 
+ 1145  vi xh_boxcar.c
+ 1146  make xh_boxcar 
+ 1147  vi xh_boxcar.c
+ 1148  make xh_boxcar 
+ 1149  vi xh_stack.c 
+ 1150  make xh_stack
+ 1151  vi xh_rp.c 
+ 1152  make xh_rp 
+ 1153  vi xh_rp.c 
+ 1154  make xh_rp 
+ 1155  vi xh_rp.c 
+ 1156  make xh_rp 
+ 1157  vi xh_rp.c 
+ 1158  make xh_rp 
+ 1159  vi xh_rp.c 
+ 1160  make xh_rp 
+ 1161  vi xh_rp.c 
+ 1162  make xh_rp 
+ 1163  vi xh_rp.c 
+ 1164  make xh_rp 
+ 1165  vi xh_rp.c 
+ 1166  make xh_rp 
+ 1167  vi xh_rp.c 
+ 1168  make xh_rp 
+ 1169  vi xh_rp.c 
+ 1170  make xh_rp 
+ 1171  vi xh_rp.c 
+ 1172  make xh_rp 
+ 1173  vi xh_rp.c 
+ 1174  make xh_rp 
+ 1175  vi xh_rp.c 
+ 1176  make xh_rp 
+ 1177  vi xh_rp.c 
+ 1178  make xh_rp 
+ 1179  vi xh_rp.c 
+ 1180  make xh_rp 
+ 1181  vi xh_rp.c 
+ 1182  make xh_rp 
+ 1183  vi xh_rp.c 
+ 1184  make xh_rp 
+ 1185  vi xh_rp.c 
+ 1186  make xh_rp 
+ 1187  vi xh_rp.c 
+ 1188  make xh_rp 
+ 1189  vi xh_rp.c 
+ 1190  make xh_rp 
+ 1191  vi xh_rp.c 
+ 1192  make xh_rp 
+ 1193  vi xh_rp.c 
+ 1194  make xh_rp 
+ 1195  vi xh_rp.c 
+ 1196  make xh_rp 
+ 1197  vi xh_rp.c 
+ 1198  make xh_rp 
+ 1199  vi xh_rp.c 
+ 1200  make xh_rp 
+ 1201  vi xh_rp.c 
+ 1202  make xh_rp 
+ 1203  vi xh_deconv.c 
+ 1204  cd ../lib/libXH/
+ 1205  ls
+ 1206  vi ../libSGNL/stf_tshift.c 
+ 1207  cd ../../XH_formatting/
+ 1208  ls
+ 1209  vi xh_stack.c 
+ 1210  vi xh_deconv.c 
+ 1211  vi xh_stack.c 
+ 1212  make xh_stack 
+ 1213  vi xh_deconv.c 
+ 1214  vi xh_boxcar.c
+ 1215  make xh_boxcar
+ 1216  vi xh_stack.c 
+ 1217  cd
+ 1218  cd Research/SR_Attn/ls
+ 1219  cd Research/SR_Attn/
+ 1220  ls
+ 1221  cd synthetics/
+ 1222  ls
+ 1223  vi ~/.bashrc
+ 1224  ls
+ 1225  scp wozhi:/opt/home/meichenl/fk/hk_100/PAS* .
+ 1226  vi ~/.bashrc
+ 1227  source ~/.bashrc
+ 1228  scp wozhi:/opt/home/meichenl/fk/hk_100/PAS* .
+ 1229  vi ~/.bashrc
+ 1230  source ~/.bashrc
+ 1231  scp meichenl@wozhi.earth.lsa.umich.edu
+ 1232  scp -r meichenl@wozhi.earth.lsa.umich.edu
+ 1233  vi ~/.bashrc
+ 1234  wozhi
+ 1235  scp meichenl@wozhi.earth.lsa.umich.edu:/opt/home/meichenl/fk/hk_100/PAS* .
+ 1236  scp meichenl@wozhi.earth.lsa.umich.edu:/opt/home/meichenl/fk/PAS* .
+ 1237  ls
+ 1238  sac
+ 1239  scp meichenl@wozhi.earth.lsa.umich.edu:/opt/home/meichenl/fk/PAS* .
+ 1240  ls
+ 1241  sac
+ 1242  scp meichenl@wozhi.earth.lsa.umich.edu:/opt/home/meichenl/fk/PAS* .
+ 1243  sac
+ 1244  scp meichenl@wozhi.earth.lsa.umich.edu:/opt/home/meichenl/fk/PAS* .
+ 1245  ls
+ 1246  sac\
+ 1247  sac
+ 1248  ls
+ 1249  scp meichenl@wozhi.earth.lsa.umich.edu:/opt/home/meichenl/fk/ROW* .
+ 1250  ls
+ 1251  sac
+ 1252  saclst t1 f PAS.z
+ 1253  sac
+ 1254  saclst t1 f PAS.z
+ 1255  python /home/meichen/bin/seismoscript.py PAS.z t1 -5 40 5 master
+ 1256  clear
+ 1257  cd
+ 1258  cd src/XH_formatting/
+ 1259  ls
+ 1260  vi xh_rp.c 
+ 1261  make xh_rp 
+ 1262  vi xh_rp.c 
+ 1263  cd
+ 1264  cd Research/SR_Attn/synthetics/
+ 1265  ls
+ 1266  bash /home/meichen/bin/seismoscript.py PAS.z t1 -5 40 5 egf
+ 1267  python /home/meichen/bin/seismoscript.py PAS.z t1 -5 40 5 egf
+ 1268  ls
+ 1269  python /home/meichen/bin/seismoscript.py PAS.z t1 -5 40 5 egf XX.PAS..BHZ
+ 1270  python /home/meichen/bin/seismoscript_mtspec.py PAS.z t1 -5 40 5 egf
+ 1271  python /home/meichen/bin/seismoscript_mtspec.py PAS.z t1 -5 40 5 egf XX.PAS..BHZ
+ 1272  ls
+ 1273  python /home/meichen/bin/seismoscript_mtspec.py ROW.z t1 -5 40 5 master XX.PAS..BHZ
+ 1274  ls
+ 1275  bash /home/meichen/bin/sr_calc.sh -5 40 5 P
+ 1276  ls
+ 1277  ipython
+ 1278  sac
+ 1279  ls
+ 1280  rm *.egf *.master *.sr
+ 1281  ls
+ 1282  python /home/meichen/bin/seismoscript_mtspec.py PAS.z t1 -5 10 4 master XX.PAS..BHZ
+ 1283  ls
+ 1284  rm *.master
+ 1285  python /home/meichen/bin/seismoscript_mtspec.py PAS.z t1 -5 10 4 egf XX.PAS..BHZ
+ 1286  python /home/meichen/bin/seismoscript_mtspec.py ROW.z t1 -5 10 4 master XX.PAS..BHZ
+ 1287  bash /home/meichen/bin/sr_calc.sh -5 10 4 P
+ 1288  ls
+ 1289  ipython
+ 1290  ls
+ 1291  rm *.egf
+ 1292  rm *.master
+ 1293  rm *.sr
+ 1294  ls
+ 1295  python /home/meichen/bin/seismoscript_mtspec.py PAS.z t1 -5 25 1 egf XX.PAS..BHZ
+ 1296  python /home/meichen/bin/seismoscript_mtspec.py ROW.z t1 -5 25 1 master XX.PAS..BHZ
+ 1297  bash /home/meichen/bin/sr_calc.sh -5 25 1 P
+ 1298  ls
+ 1299  ipython
+ 1300  ls
+ 1301  python /home/meichen/bin/seismoscript_mtspec.py PAS.z t1 -5 8 5 egf XX.PAS..BHZ
+ 1302  python /home/meichen/bin/seismoscript_mtspec.py ROW.z t1 -5 8 5 master XX.PAS..BHZ
+ 1303  bash /home/meichen/bin/sr_calc.sh -5 25 1 P
+ 1304  bash /home/meichen/bin/sr_calc.sh -5 8 5 P
+ 1305  ls
+ 1306  ipython
+ 1307  ls
+ 1308  rm *.grn.*
+ 1309  ls
+ 1310  ipython
+ 1311  ls
+ 1312  sac
+ 1313  scp -r meichenl@wozhi.earth.lsa.umich.edu:/opt/home/meichenl/fk/ROW.* .
+ 1314  ls
+ 1315  python /home/meichen/bin/seismoscript_mtspec.py ROW.z t1 -5 10 4 egf XX.PAS..BHZ
+ 1316  sac
+ 1317  python /home/meichen/bin/seismoscript_mtspec.py ROW.z t1 -5 10 4 egf XX.PAS..BHZ
+ 1318  python /home/meichen/bin/seismoscript_mtspec.py PAS.z t1 -5 10 4 master XX.PAS..BHZ
+ 1319  bash /home/meichen/bin/sr_calc.sh -5 10 4 P
+ 1320  ls
+ 1321  ipython
+ 1322  ls
+ 1323  sac
+ 1324  rm *.master *.egf *.sr
+ 1325  ls
+ 1326  python /home/meichen/bin/seismoscript_mtspec.py ROW.z t1 -5 10 4 egf XX.PAS..BHZ
+ 1327  python /home/meichen/bin/seismoscript_mtspec.py PAS.z t1 -5 10 4 master XX.PAS..BHZ
+ 1328  vi XX.PAS..BHZ.P.-5.10.4.Np1.master
+ 1329  vi XX.PAS..BHZ.P.-5.10.4.Np1.egf
+ 1330  bash /home/meichen/bin/sr_calc.sh -5 10 4 P
+ 1331  ls
+ 1332  ipython
+ 1333  ls
+ 1334  sac
+ 1335  ls
+ 1336  ipython
+ 1337  ls
+ 1338  sac
+ 1339  ipython
+ 1340  python /home/meichen/bin/seismoscript_mtspec.py ROW.z t1 -5 15 2 egf XX.PAS..BHZ
+ 1341  python /home/meichen/bin/seismoscript_mtspec.py PAS.z t1 -5 15 2 master XX.PAS..BHZ
+ 1342  bash /home/meichen/bin/sr_calc.sh -5 15 2 P
+ 1343  ls
+ 1344  ipython
+ 1345  scp -r meichen@wozhi.earth.lsa.umich.edu:/opt/home/meichenl/fk/PAS.* .
+ 1346  scp -r meichenl@wozhi.earth.lsa.umich.edu:/opt/home/meichenl/fk/PAS.* .
+ 1347  ls
+ 1348  rm *.egf *.master *.sr
+ 1349  ls
+ 1350  python /home/meichen/bin/seismoscript_mtspec.py ROW.z t1 -5 15 2 egf XX.PAS..BHZ
+ 1351  python /home/meichen/bin/seismoscript_mtspec.py PAS.z t1 -5 15 2 master XX.PAS..BHZ
+ 1352  ls
+ 1353  sac
+ 1354  python /home/meichen/bin/seismoscript_mtspec.py PAS.z t1 -5 15 2 master XX.PAS..BHZ
+ 1355  ls
+ 1356  bash /home/meichen/bin/sr_calc.sh -5 15 2 P
+ 1357  ls
+ 1358  ipython
+ 1359  ls
+ 1360  python /home/meichen/bin/seismoscript_mtspec.py PAS.z t1 -5 10 4 master XX.PAS..BHZ
+ 1361  bash /home/meichen/bin/sr_calc.sh -5 10 4 P
+ 1362  python /home/meichen/bin/seismoscript_mtspec.py ROW.z t1 -5 10 4 egf XX.PAS..BHZ
+ 1363  bash /home/meichen/bin/sr_calc.sh -5 10 4 P
+ 1364  ls
+ 1365  ipython
+ 1366  ls
+ 1367  rm *.egf *.master *.sr
+ 1368  ls
+ 1369  scp -r meichenl@wozhi.earth.lsa.umich.edu:/opt/home/meichenl/fk/PAS.* .
+ 1370  scp -r meichenl@wozhi.earth.lsa.umich.edu:/opt/home/meichenl/fk/ROW.* .
+ 1371  ls
+ 1372  python /home/meichen/bin/seismoscript_mtspec.py ROW.z t1 -5 10 4 egf XX.PAS..BHZ
+ 1373  sac
+ 1374  ls
+ 1375  python /home/meichen/bin/seismoscript_mtspec.py ROW.z t1 -5 10 4 egf XX.PAS..BHZ
+ 1376  python /home/meichen/bin/seismoscript_mtspec.py PAS.z t1 -5 10 4 master XX.PAS..BHZ
+ 1377  bash /home/meichen/bin/sr_calc.sh -5 10 4 P
+ 1378  ipython
+ 1379  ls
+ 1380  rm *.sr *.egf *.master
+ 1381  ls
+ 1382  scp -r meichenl@wozhi.earth.lsa.umich.edu:/opt/home/meichenl/fk/PAS.* .
+ 1383  scp -r meichenl@wozhi.earth.lsa.umich.edu:/opt/home/meichenl/fk/ROW.* .
+ 1384  ls
+ 1385  python /home/meichen/bin/seismoscript_mtspec.py ROW.z t1 -5 10 4 egf XX.PAS..BHZ
+ 1386  sac
+ 1387  python /home/meichen/bin/seismoscript_mtspec.py ROW.z t1 -5 10 4 egf XX.PAS..BHZ
+ 1388  python /home/meichen/bin/seismoscript_mtspec.py PAS.z t1 -5 10 4 master XX.PAS..BHZ
+ 1389  bash /home/meichen/bin/sr_calc.sh -5 10 4 P
+ 1390  ls
+ 1391  ipython
+ 1392  sac
+ 1393  python /home/meichen/bin/seismoscript_mtspec.py ROW.z t1 -5 8 5 egf XX.PAS..BHZ
+ 1394  python /home/meichen/bin/seismoscript_mtspec.py PAS.z t1 -5 8 5 master XX.PAS..BHZ
+ 1395  bash /home/meichen/bin/sr_calc.sh -5 8 5 P
+ 1396  ls
+ 1397  ipython
+ 1398  scp -r meichenl@wozhi.earth.lsa.umich.edu:/opt/home/meichenl/fk/ROW.* .
+ 1399  python /home/meichen/bin/seismoscript_mtspec.py ROW.z t1 -5 8 5 egf XX.PAS..BHZ
+ 1400  sac
+ 1401  python /home/meichen/bin/seismoscript_mtspec.py ROW.z t1 -5 8 5 egf XX.PAS..BHZ
+ 1402  bash /home/meichen/bin/sr_calc.sh -5 8 5 P
+ 1403  ls
+ 1404  ipython
+ 1405  scp -r meichenl@wozhi.earth.lsa.umich.edu:/opt/home/meichenl/fk/ROW.* .
+ 1406  scp -r meichenl@wozhi.earth.lsa.umich.edu:/opt/home/meichenl/fk/PAS.* .
+ 1407  ls
+ 1408  python /home/meichen/bin/seismoscript_mtspec.py ROW.z t1 -5 8 5 egf XX.PAS..BHZ
+ 1409  sac
+ 1410  python /home/meichen/bin/seismoscript_mtspec.py ROW.z t1 -5 8 5 egf XX.PAS..BHZ
+ 1411  python /home/meichen/bin/seismoscript_mtspec.py PAS.z t1 -5 8 5 master XX.PAS..BHZ
+ 1412  bash /home/meichen/bin/sr_calc.sh -5 8 5 P
+ 1413  ls
+ 1414  ipython
+ 1415  ls
+ 1416  cd
+ 1417  cd Research/SH_TOMO/USArray/
+ 1418  vi xh_process.py 
+ 1419  ./xh_process.py 
+ 1420  vi xh_readfile.py 
+ 1421  ls
+ 1422  rm *.pdf
+ 1423  ./xh_readfile.py 
+ 1424  ls
+ 1425  evince *.pdf &
+ 1426  ls
+ 1427  rm *.pdf
+ 1428  ls
+ 1429  vi events_cat.txt 
+ 1430  ./xh_process.py 
+ 1431  ls
+ 1432  ./xh_readfile.py 
+ 1433  ls
+ 1434  vi events_cat.txt 
+ 1435  vi events_selected.txt 
+ 1436  vi xh_process.py 
+ 1437  vi events_selected.txt 
+ 1438  rm *.pdf
+ 1439  ./xh_readfile.py 
+ 1440  vi xh_process.py 
+ 1441  ls
+ 1442  evince *.pdf &
+ 1443  vi xh_process.py 
+ 1444  vi xh_readfile.py 
+ 1445  vi xh_process.py 
+ 1446  vi xh_readfile.py 
+ 1447  vi xh_process.py 
+ 1448  vi xh_readfile.py 
+ 1449  vi xh_process.py 
+ 1450  ./xh_process.py 
+ 1451  ls
+ 1452  ./reverberation.py 
+ 1453  vi xh_process.py 
+ 1454  ./reverberation.py 
+ 1455  ls
+ 1456  evince reverberation.pdf 
+ 1457  vi xh_process.py 
+ 1458  ./xh_process.py 
+ 1459  ./reverberation.py 
+ 1460  evince reverberation.pdf 
+ 1461  ls
+ 1462  evince reverberation.pdf 
+ 1463  mv reverberation.pdf reverb.dis.ScSwin.pdf
+ 1464  vi xh_process.py 
+ 1465  ./xh_process.py 
+ 1466  ./reverberation.py 
+ 1467  ls
+ 1468  mv reverberation.pdf reverb.vel.ScSwin.pdf
+ 1469  ls
+ 1470  evince reverb.*pdf &
+ 1471  vi xh_process.py 
+ 1472  ./xh_process.py 
+ 1473  ./reverberation.py 
+ 1474  ls
+ 1475  mv reverberation.pdf reverb.vel.bp.pdf 
+ 1476  ls
+ 1477  evince reverb.*.pdf
+ 1478  vi reverberation.py 
+ 1479  vi xh_process.py 
+ 1480  vi reverberation.py 
+ 1481  ls
+ 1482  vi grid.txt 
+ 1483  vi reverberation.py 
+ 1484  ls
+ 1485  vi events_selected.txt 
+ 1486  vi xh_process.py 
+ 1487  ./xh_process.py 
+ 1488  vi events_cat.txt 
+ 1489  ./xh_process.py 
+ 1490  ls
+ 1491  vi events_selected.txt 
+ 1492  vi reverberation.py 
+ 1493  ls
+ 1494  vi grid.txt 
+ 1495  ipython
+ 1496  ls
+ 1497  vi grid.txt 
+ 1498  ipython
+ 1499  vi grid.txt 
+ 1500  wpd
+ 1501  pwd
+ 1502  vi xh_process.py 
+ 1503  ls
+ 1504  rm reverb.*.pdf
+ 1505  ls
+ 1506  vi reverberation.py 
+ 1507  ./reverberation.py 
+ 1508  vi reverberation.py 
+ 1509  ./reverberation.py 
+ 1510  cal
+ 1511  ls
+ 1512  evince profiles.pdf 
+ 1513  vi reverberation.py 
+ 1514  ./reverberation.py 
+ 1515  ls
+ 1516  evince profiles.pdf 
+ 1517  vi xh_process.py 
+ 1518  l
+ 1519  ls
+ 1520  evince reverberation.pdf 
+ 1521  ./reverberation.py 
+ 1522  ls
+ 1523  evince profiles.pdf 
+ 1524  vi reverberation.py 
+ 1525  ./reverberation.py 
+ 1526  vi reverberation.py 
+ 1527  ./reverberation.py 
+ 1528  ls
+ 1529  evince profiles.pdf 
+ 1530  evince reverberation.pdf 
+ 1531  evince profiles.pdf 
+ 1532  vi reverberation.py 
+ 1533  ./reverberation.py 
+ 1534  evince profiles.pdf 
+ 1535  ls -l
+ 1536  evince reverberation.pdf 
+ 1537  ls
+ 1538  vi data_download.py 
+ 1539  ./data_download.py 
+ 1540  ls
+ 1541  vi data_download.py 
+ 1542  ./xh_process.py 
+ 1543  vi xh_process.py 
+ 1544  ./xh_process.py 
+ 1545  vi xh_process.py 
+ 1546  ./xh_process.py 
+ 1547  ls
+ 1548  evince reverberation.pdf 
+ 1549  ls
+ 1550  evince profiles.pdf
+ 1551  vi xh_process.py 
+ 1552  ls
+ 1553  vi events_selected.txt 
+ 1554  vi data_download.py 
+ 1555  vi events_cat.txt 
+ 1556  ./data_download.py 
+ 1557  ls
+ 1558  vi events_selected.txt 
+ 1559  hvdbrowse -y 2000 2018 -w 6.0 9.0 -d 400 800
+ 1560  hvdbrowse -y 2000 2018 -w 6.5 9.0 -d 400 800
+ 1561  vi events_cat.txt 
+ 1562  ./xh_process.py 
+ 1563  ls
+ 1564  vi events_selected.txt 
+ 1565  vi events_cat.txt 
+ 1566  vi data_download.py 
+ 1567  ./xh_readfile.py 
+ 1568  ls
+ 1569  evince *.bp.*.pdf
+ 1570  ls
+ 1571  vi events_selected.txt 
+ 1572  vi events_cat.txt 
+ 1573  vi out 
+ 1574  rm out 
+ 1575  rm *.pdf
+ 1576  ls
+ 1577  vi data_download.py 
+ 1578  ./data_download.py 
+ 1579  ls
+ 1580  vi events_cat.txt 
+ 1581  ./data_download.py 
+ 1582  vi data_download.py 
+ 1583  cd work1/SH_TOMO/Combined_xh/
+ 1584  ls
+ 1585  cp /home/meichen/work1/SH_TOMO/events/event_042300B/waveforms/XH_files/042300B.BHT.vel.ScSwin.xh ./all.xh
+ 1586  ls
+ 1587  cd ../Combined_xh/
+ 1588  ls
+ 1589  vi all_rp.txt 
+ 1590  evince map.pdf 
+ 1591  vi all_rp.txt 
+ 1592  ipython
+ 1593  ls
+ 1594  cd ..
+ 1595  ls
+ 1596  cd Combined_xh/
+ 1597  ls
+ 1598  vi all_rp.txt 
+ 1599  ipython
+ 1600  ls
+ 1601  cd ../Combined_xh/
+ 1602  ls
+ 1603  vi all_rp.txt 
+ 1604  cd ../Combined_xh/
+ 1605  ls
+ 1606  vi all_rp.txt 
+ 1607  vi grid.txt 
+ 1608  ls
+ 1609  cd ../
+ 1610  ls
+ 1611  cd Combined_xh/
+ 1612  ls
+ 1613  evince map.pdf 
+ 1614  ls
+ 1615  xh_rp all.xh all_rp.txt rt.prem_ml.SSv.s grid.txt 10
+ 1616  ulimit -S -s unlimited
+ 1617  umilit -S -n 1048576
+ 1618  ulimit -S -n 1048576
+ 1619  xh_rp all.xh all_rp.txt rt.prem_ml.SSv.s grid.txt 10
+ 1620  LS
+ 1621  xh_header all.xh 
+ 1622  xh_rp all.xh all_rp.txt rt.prem_ml.SSv.s grid.txt 10
+ 1623  ls
+ 1624  vi all_rp.txt 
+ 1625  ipython
+ 1626  cd ../Combined_xh/
+ 1627  ls
+ 1628  vi all_rp.txt 
+ 1629  evince map.pdf 
+ 1630  vi rt.prem_ml.SSv.s 
+ 1631  cd ../Combined_xh/
+ 1632  ls
+ 1633  vi all_rp.txt 
+ 1634  xh_rp all.xh all_rp.txt rt.prem_ml.SSv.s grid.txt 10
+ 1635  ls
+ 1636  vi all_rp.txt 
+ 1637  ipython
+ 1638  xh_rp all.xh all_rp.txt rt.prem_ml.SSv.s grid.txt 10
+ 1639  ls
+ 1640  vi all_rp.txt 
+ 1641  xh_rp all.xh all_rp.txt rt.prem_ml.SSv.s grid.txt 10
+ 1642  vi all_rp.txt 
+ 1643  ipython
+ 1644  xh_rp all.xh all_rp.txt rt.prem_ml.SSv.s grid.txt 10 > out
+ 1645  vi out 
+ 1646  cd
+ 1647  cd Utils/TauP_calculations/TravelTimeTables/
+ 1648  ls
+ 1649  vi makereflectp.sh 
+ 1650  cd
+ 1651  cd work1/SH_TOMO/Combined_xh/
+ 1652  ls
+ 1653  vi out 
+ 1654  xh_rp all.xh all_rp.txt rt.prem_ml.SSv.s grid.txt 10 > out
+ 1655  vi out 
+ 1656  xh_rp all.xh all_rp.txt rt.prem_ml.SSv.s grid.txt 10 > out
+ 1657  vi out 
+ 1658  xh_rp all.xh all_rp.txt rt.prem_ml.SSv.s grid.txt 10 > out
+ 1659  vi out 
+ 1660  xh_rp all.xh all_rp.txt rt.prem_ml.SSv.s grid.txt 10 > out
+ 1661  vi out 
+ 1662  xh_rp all.xh all_rp.txt rt.prem_ml.SSv.s grid.txt 10 > out
+ 1663  vi out 
+ 1664  xh_rp all.xh all_rp.txt rt.prem_ml.SSv.s grid.txt 10 > out
+ 1665  vi out 
+ 1666  xh_rp all.xh all_rp.txt rt.prem_ml.SSv.s grid.txt 10 > out
+ 1667  vi out 
+ 1668  xh_rp all.xh all_rp.txt rt.prem_ml.SSv.s grid.txt 10 > out
+ 1669  vi out 
+ 1670  xh_rp all.xh all_rp.txt rt.prem_ml.SSv.s grid.txt 10 > out
+ 1671  vi out 
+ 1672  vi all_rp.txt 
+ 1673  ipython
+ 1674  xh_rp all.xh all_rp rt.prem_ml.SSv.s grid.txt 10
+ 1675  ls -l
+ 1676  ipython
+ 1677  xh_rp all.xh all_rp rt.prem_ml.SSv.s grid.txt 10
+ 1678  ls
+ 1679  cd ../Combined_xh/
+ 1680  ls
+ 1681  xh_rp all.xh all_rp rt.prem_ml.SSv.s grid.txt 10
+ 1682  ls
+ 1683  xh_rp all.xh all_rp rt.prem_ml.SSv.s grid.txt 5
+ 1684  xh_rp all.xh all_rp rt.prem_ml.SSv.s grid.txt 10
+ 1685  evince map.pdf 
+ 1686  ls
+ 1687  xh_header all.xh 
+ 1688  pwd
+ 1689  ls
+ 1690  cd ../Combined_xh/
+ 1691  ls
+ 1692  xh_header all.xh 
+ 1693  vi grid.txt 
+ 1694  cp /home/meichen/Research/SH_TOMO/USArray/grid.txt .
+ 1695  ls
+ 1696  xh_rp all.xh all_rp rt.prem_ml.SSv.s grid.txt 10
+ 1697  xh_rp all.xh all_rp rt.prem_ml.SSv.s grid.txt 10 100
+ 1698  xh_rp all.xh all_rp rt.prem_ml.SSv.s grid.txt 2 100
+ 1699  xh_rp all.xh all_rp rt.prem_ml.SSv.s grid.txt 3
+ 1700  ls
+ 1701  cd
+ 1702  cd Research/SH_TOMO/USArray/
+ 1703  ls
+ 1704  evince profiles.pdf 
+ 1705  cd
+ 1706  cd Utils/TauP_calculations/TravelTimeTables/
+ 1707  ls
+ 1708  rm rt...
+ 1709  ls
+ 1710  vi makereflectp.sh 
+ 1711  ls
+ 1712  cd
+ 1713  cd Research/SH_TOMO/USArray/
+ 1714  ls
+ 1715  vi events_cat.txt 
+ 1716  cd 
+ 1717  cd Utils/TauP_calculations/TravelTimeTables/
+ 1718  ls
+ 1719  vi makereflectp.sh 
+ 1720  cd
+ 1721  cd Utils/TauP_calculations/TravelTimeTables/
+ 1722  ls
+ 1723  vi rt.prem_ml.SSv.s 
+ 1724  cd
+ 1725  cd Research/SH_TOMO/USArray/
+ 1726  ls
+ 1727  vi events_cat.txt 
+ 1728  vi data_download.py 
+ 1729  vi events_cat.txt 
+ 1730  which obspy
+ 1731  whereis obspy
+ 1732  cd
+ 1733  cd /home/meichen/anaconda3/envs/
+ 1734  ls
+ 1735  cd ..
+ 1736  ls
+ 1737  which obspy
+ 1738  obspy-runtest
+ 1739  obspy-runtests
+ 1740  conda install obspy
+ 1741  conda update -n base conda
+ 1742  which python
+ 1743  cd /home/meichen/anaconda3/bin/
+ 1744  ls
+ 1745  which obspy
+ 1746  cd ..
+ 1747  ls
+ 1748  conda create -n obspy python=3.7
+ 1749  conda activate obspy
+ 1750  source ~/anaconda3/etc/profile.d/conda.sh
+ 1751  activate my_env
+ 1752  activate obspy
+ 1753  conda install obspy
+ 1754  conda install basemap
+ 1755  cd Research/SH_TOMO/USArray/
+ 1756  ./data_download.py 
+ 1757  ls
+ 1758  vi events_cat.txt 
+ 1759  hvdbrowse -y 2000 2018 -w 6.0 9.0 -d 400 800
+ 1760  vi events_cat.txt 
+ 1761  ./data_download.py 
+ 1762  ls
+ 1763  vi data_download.py 
+ 1764  vi events_cat.txt 
+ 1765  ./data_download.py 
+ 1766  vi data_download.py 
+ 1767  ./data_download.py 
+ 1768  vi data_download.py 
+ 1769  ipython
+ 1770  conda update obspy
+ 1771  ipython
+ 1772  ls
+ 1773  cd waveforms/
+ 1774  ls
+ 1775  rm *
+ 1776  cd ..
+ 1777  ls
+ 1778  rm -r waveforms/
+ 1779  ls
+ 1780  ipthon
+ 1781  ipython
+ 1782  ls
+ 1783  cd work1/SH_TOMO/Combined_xh/
+ 1784  ls
+ 1785  evince map.pdf 
+ 1786  vi rt
+ 1787  vi rt.prem_ml.SSv.s 
+ 1788  evince map.pdf 
+ 1789  vi all_rp.txt 
+ 1790  vi rt.prem_ml.SSv.s 
+ 1791  vi all_rp.txt 
+ 1792  cp /home/meichen/Research/SH_TOMO/USArray/reverberation.py .
+ 1793  python reverberation.py 
+ 1794  vi reverberation.py 
+ 1795  python reverberation.py 
+ 1796  vi reverberation.py 
+ 1797  python reverberation.py 
+ 1798  vi reverberation.py 
+ 1799  python reverberation.py 
+ 1800  sudo apt install --upgrad matplotlib
+ 1801  sudo pip install --upgrad matplotlib
+ 1802  sudo apt-get update
+ 1803  sudo apt install python3-pip
+ 1804  sudo pip3 install upgrad matplotlib
+ 1805  sudo pip3 install upgrade matplotlib
+ 1806  pip3 install --user --upgrade matplotlib
+ 1807  pip install --upgrade pip
+ 1808  python reverberation.py 
+ 1809  vi reverberation.py 
+ 1810  python reverberation.py 
+ 1811  vi reverberation.py 
+ 1812  python reverberation.py 
+ 1813  ls
+ 1814  evince reverberation.pdf 
+ 1815  vi reverberation.py 
+ 1816  python reverberation.py 
+ 1817  ls
+ 1818  evince reverberation.pdf 
+ 1819  vi reverberation.py 
+ 1820  python reverberation.py 
+ 1821  vi reverberation.py 
+ 1822  python reverberation.py 
+ 1823  evince reverberation.pdf 
+ 1824  vi all_rp.txt 
+ 1825  ls
+ 1826  vi reverberation.py 
+ 1827  vi all_rp.txt 
+ 1828  vi reverberation.py
+ 1829  vi all_rp.txt 
+ 1830  vi reverberation.py 
+ 1831  ls
+ 1832  evince reverberation.pdf 
+ 1833  cp /home/meichen/Research/SH_TOMO/USArray/grid.txt .
+ 1834  vi reverberation.py
+ 1835  ls
+ 1836  vi add.sh 
+ 1837  xh_rp all.xh all_rp.txt rt.prem_ml.SSv.s grid.txt 10
+ 1838  vi reverberation.py 
+ 1839  python reverberation.py 
+ 1840  vils
+ 1841  vi all_rp.txt 
+ 1842  gawk 'NR<10' all_rp.txt 
+ 1843  gawk 'NR<10' all_rp.txt > out
+ 1844  vi out 
+ 1845  gawk 'NR>10 && NR<20' all_rp.txt > out
+ 1846  vi out 
+ 1847  gawk 'NR>10 && NR<30' all_rp.txt > out
+ 1848  vi out 
+ 1849  ls
+ 1850  vi reverberation.py 
+ 1851  gawk 'NR<10000' all_rp.txt > out
+ 1852  ls -l
+ 1853  vi all_rp.txt 
+ 1854  ls
+ 1855  rm all_rp.txt 
+ 1856  rm out 
+ 1857  ls -l
+ 1858  xh_rp all.xh all_rp rt.prem_ml.SSv.s grid.txt 10
+ 1859  vi reverberation.py 
+ 1860  cd ..
+ 1861  ls
+ 1862  ls -l
+ 1863  cd Combined_xh/
+ 1864  vi reverberation.py
+ 1865  ls
+ 1866  rm reverberation.pdf 
+ 1867  ls
+ 1868  ulimit -S -a
+ 1869  ulimit -H -a
+ 1870  ls
+ 1871  evince reverberation.pdf 
+ 1872  ls
+ 1873  rm reverberation.pdf 
+ 1874  ls
+ 1875  evince reverberation.pdf 
+ 1876  ls
+ 1877  cd ../Combined_xh/
+ 1878  ls
+ 1879  mv all_rp.txt all_rp
+ 1880  ld
+ 1881  ;s
+ 1882  ls
+ 1883  cd ../Combined_xh/
+ 1884  ls
+ 1885  ipython
+ 1886  ls
+ 1887  cd ../Combined_xh/
+ 1888  ls
+ 1889  ipython
+ 1890  cd ../Combined_xh/
+ 1891  ipython
+ 1892  cd
+ 1893  ls
+ 1894  cd Research/SH_TOMO/USArray/
+ 1895  ls
+ 1896  vi data_download.py 
+ 1897  ls
+ 1898  cd
+ 1899  ls
+ 1900  cd ana
+ 1901  cd anaconda3/
+ 1902  ls
+ 1903  find obspy
+ 1904  locate obspy
+ 1905  cd pkgs/
+ 1906  ls
+ 1907  which obspy
+ 1908  cd obspy-1.1.0-py36_1
+ 1909  ls
+ 1910  cd bin/
+ 1911  ls
+ 1912  cd ..
+ 1913  ls
+ 1914  cd info/
+ 1915  ls
+ 1916  cd ../lib/
+ 1917  ls
+ 1918  cd python3.6/
+ 1919  ls
+ 1920  cd site-packages/
+ 1921  ls
+ 1922  cd obspy
+ 1923  ls
+ 1924  cd lib/
+ 1925  ls
+ 1926  cd ..
+ 1927  ls
+ 1928  cd clients/
+ 1929  ls
+ 1930  cd fdsn/
+ 1931  ls
+ 1932  cd mass_downloader/
+ 1933  ls
+ 1934  cd ..
+ 1935  ls
+ 1936  vi client.py 
+ 1937  vi __init__.py 
+ 1938  ls
+ 1939  cd tests/
+ 1940  ls
+ 1941  vi __init__.py 
+ 1942  vi test_base_routing_client.py 
+ 1943  vi test_client.py 
+ 1944  ls
+ 1945  vi test_eidaws_routing_client.py 
+ 1946  vi test_federator_routing_client.py 
+ 1947  ls
+ 1948  vi test_mass_downloader.py 
+ 1949  ls
+ 1950  vi test_wadl_parser.py 
+ 1951  ls
+ 1952  cd ..
+ 1953  ls
+ 1954  vi README.txt 
+ 1955  cd mass_downloader/
+ 1956  ls
+ 1957  vi mass_downloader.py 
+ 1958  ls
+ 1959  vi download_helpers.py 
+ 1960  cd ../../../../
+ 1961  cd ../../../
+ 1962  cd ../
+ 1963  ls
+ 1964  cd obspy-1.1.0-py36h7eb728f_2
+ 1965  ls
+ 1966  cd lib/
+ 1967  ls
+ 1968  cd python3.6/
+ 1969  ls
+ 1970  cd site-packages/
+ 1971  ls
+ 1972  cd obspy
+ 1973  ls
+ 1974  cd clients/
+ 1975  ls
+ 1976  cd fdsn/
+ 1977  ls
+ 1978  cd mass_downloader/
+ 1979  ls
+ 1980  vi download_helpers.py 
+ 1981  ls
+ 1982  vi mass_downloader.py 
+ 1983  vi download_helpers.py 
+ 1984  vi mass_downloader.py 
+ 1985  vi restrictions.py 
+ 1986  ls
+ 1987  vi mass_downloader.py 
+ 1988  vi download_helpers.py 
+ 1989  vi restrictions.py 
+ 1990  ls
+ 1991  vi download_helpers.py 
+ 1992  cd
+ 1993  cd :~/anaconda3/pkgs/obspy-1.1.0-py36h7eb728f_2/lib/python3.6/site-packages/obspy/clients/fdsn/mass_downloader
+ 1994  cd ~/anaconda3/pkgs/obspy-1.1.0-py36h7eb728f_2/lib/python3.6/site-packages/obspy/clients/fdsn/mass_downloader
+ 1995  ls
+ 1996  vi __init__.py 
+ 1997  cd ..
+ 1998  ls
+ 1999  vi __init__.py 
+ 2000  ls
+ 2001  cd Research/SR_Attn/
+ 2002  ls
+ 2003  cd synthetics/
+ 2004  ls
+ 2005  cd pulse1/
+ 2006  ls
+ 2007  eog sr.png 
+ 2008  cd ../pulse2/
+ 2009  ls
+ 2010  vi stf.py 
+ 2011  sac
+ 2012  ls
+ 2013  vi stf.py 
+ 2014  ./stf.py 
+ 2015  vi stf.py 
+ 2016  ./stf.py 
+ 2017  ls
+ 2018  sac
+ 2019  scp stf_*.sac meichenl@wozhi.earth.lsa.umich.edu:/opt/home/meichenl/fk
+ 2020  taup
+ 2021  vi stf.py 
+ 2022  ./stf.py 
+ 2023  vi stf.py 
+ 2024  ./stf.py 
+ 2025  ls
+ 2026  sac
+ 2027  ls
+ 2028  vi stf.py 
+ 2029  ./stf.py 
+ 2030  vi stf.py 
+ 2031  sac
+ 2032  vi stf.py 
+ 2033  ./stf.py 
+ 2034  sac
+ 2035  vi stf.py 
+ 2036  ./stf.py 
+ 2037  sac
+ 2038  vi stf.py 
+ 2039  ./stf.py 
+ 2040  ls
+ 2041  sac
+ 2042  ls
+ 2043  vi stf.py 
+ 2044  ./stf.py 
+ 2045  sac
+ 2046  vi stf.py 
+ 2047  ./stf.py 
+ 2048  sac
+ 2049  vi stf.py 
+ 2050  ./stf.py 
+ 2051  vi stf.py 
+ 2052  ./stf.py 
+ 2053  vi stf.py 
+ 2054  ./stf.py 
+ 2055  vi stf.py 
+ 2056  ./stf.py 
+ 2057  vi stf.py 
+ 2058  ./stf.py 
+ 2059  vi stf.py 
+ 2060  ./stf.py 
+ 2061  scp stf_*.sac meichenl@wozhi.earth.lsa.umich.edu:/opt/home/meichenl/fk
+ 2062  ls
+ 2063  scp meichenl@wozhi.earth.lsa.umich.edu:/opt/home/meichenl/fk/PASE.? .
+ 2064  scp meichenl@wozhi.earth.lsa.umich.edu:/opt/home/meichenl/fk/PASM.? .
+ 2065  ls
+ 2066  history > out

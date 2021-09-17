@@ -1,0 +1,31 @@
+# On wozhi
+# ./fk.pl generate Green's function
+# prem is a model defined by myself
+# 400 is the depth of the earthquake
+# f is flattening the velocity model
+# 2048 points; sampling rate is 0.05s
+# Compute Green's function at 10,20,30 degrees
+# a folder name prem_400 is created to store Green's functions
+./fk.pl -Mprem/400/f -N2048/0.05 -D 10 20 30
+# syn produce synthetic seismograms
+# 7 is moment magnitude
+# 355/80/-70 is strike/slip/rake
+# source time function is defined as stf_master.sac
+# 33.3 is the azimuth
+# PASM.z is the output filename
+# 10.grn.0 indicates the first order Green's function
+# I means integrating once, so velocity is transformed to displacement
+syn -M7/355/80/-70 -Sstf_master.sac -A33.3 -OPASM.z -Gprem_400/10.grn.0 -I
+
+# On local directory
+# copy synthetic seismograms
+scp meichenl@wozhi.earth.lsa.umich.edu:/opt/home/meichenl/fk/PASM.? .
+# mark arrival time of P(t1)/S(t2) using SAC
+sac >> r PASM.? ...
+# compute spectra of master event and eGf 
+python /home/meichen/bin/seismoscript_mtspec.py PASM.z t1 -1 20 5 master XX.PAS..BHZ
+python /home/meichen/bin/seismoscript_mtspec.py PASE.z t1 -1 20 5 egf XX.PAS..BHZ
+# compute their spectral ratios
+bash /home/meichen/bin/sr_calc.sh -1 20 5 P
+# find the best-fit results
+./fit.py all.P..-1.20.5.stn.1.Np.sr 2
